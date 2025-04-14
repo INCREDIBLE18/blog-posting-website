@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { use, useEffect, useState } from 'react';
-=======
+import { useEffect, useState } from 'react';
 import { useAuth } from '../AuthProvider';
 import UserNavigationPanel from '../common/UserNavigation';
+// ...rest of the code
 import { Outlet } from 'react-router-dom';
 import { Bell, Edit, User } from 'lucide-react';
 import { toast } from 'sonner';
